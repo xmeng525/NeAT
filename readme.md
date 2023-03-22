@@ -2,7 +2,7 @@
 This is the official repo for the implementation of **NeAT: Learning Neural Implicit Surfaces with Arbitrary Topologies from Multi-view Images**.
 ![alt text](https://xmeng525.github.io/xiaoxumeng.github.io/projects/cvpr23_neat/teaser.png)
 
-## [Project page](https://xmeng525.github.io/xiaoxumeng.github.io/projects/cvpr23_neat) |  [Paper](https://www.dropbox.com/s/n5e2waam0ml50e0/paper.pdf?dl=0) | [Data](https://www.dropbox.com/sh/utn5rnohmr0y2c8/AACdets4PQrP5CB1KwGkpOFUa?dl=0)
+## [Project page](https://xmeng525.github.io/xiaoxumeng.github.io/projects/cvpr23_neat) |  [Paper](https://arxiv.org/abs/2303.12012) | [Data](https://www.dropbox.com/sh/utn5rnohmr0y2c8/AACdets4PQrP5CB1KwGkpOFUa?dl=0)
 
 
 ## Usage
