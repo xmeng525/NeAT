@@ -1,0 +1,13 @@
+__pycache__/
+/exp/*
+!/exp/MGN/
+/exp/MGN/*
+!/exp/MGN/TShirtNoCoat_125611500935128/
+/exp/MGN/TShirtNoCoat_125611500935128/*
+!/exp/MGN/TShirtNoCoat_125611500935128/wmask/
+/exp/MGN/TShirtNoCoat_125611500935128/wmask/*
+!/exp/MGN/TShirtNoCoat_125611500935128/wmask/checkpoints
+/data/*
+!/data/MGN/
+/data/MGN/*
+!/data/MGN/TShirtNoCoat_125611500935128

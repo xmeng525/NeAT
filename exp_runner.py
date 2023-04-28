@@ -57,13 +57,14 @@ class Runner:
         self.learning_rate_dev = self.conf.get_float('train.learning_rate_dev')
         self.learning_rate_alpha = self.conf.get_float('train.learning_rate_alpha')
         self.warm_up_end = self.conf.get_float('train.warm_up_end', default=0.0)
+        self.thin_shell_reg_end = self.conf.get_float('train.thin_shell_reg_end', default=1e5)
         self.anneal_end = self.conf.get_float('train.anneal_end', default=0.0)
         self.change_sigmoid_factor = self.conf.get_int('train.change_sigmoid_factor', default=0)
         # use_weighted_mask: 
         # 0: don't use weighted mask; 
         # 1: use occ/free as weighted mask;
         # 2: add sensitive region
-        self.use_weighted_mask = self.conf.get_int('train.use_weighted_mask', default=1) 
+        self.use_weighted_mask = self.conf.get_int('train.use_weighted_mask', default=1)
         self.is_mutliview_sample = self.conf.get_bool('train.is_mutliview_sample', default=False)
 
         # Weights
@@ -123,9 +124,9 @@ class Runner:
         if self.mode[:5] == 'train':
             self.file_backup()
 
-        # if self.iter_step >= self.warm_up_end:
-        #     self.nan_reg_weight = 0
-        #     self.bce_reg_weight = 0
+        if self.iter_step >= self.thin_shell_reg_end:
+            self.nan_reg_weight = 0
+            self.bce_reg_weight = 0
 
     def train(self):
         self.writer = SummaryWriter(log_dir=os.path.join(self.base_exp_dir, 'logs'))
