@@ -1,0 +1,22 @@
+{
+	"output_dir": "./output_data/d3d_{n_views}views",
+	"input_dir": "./input_data/d3d_test",
+	"category_id_file": "./confs/d3d_category_id.json",
+	"category": "d3d_test",
+	"azim_step": 10,
+	"azim_start": 0,
+	"azim_end": 360,
+	"elev_step": 10,
+	"elev_start": -90,
+	"elev_end": 90,
+	"elev_offset": 5,
+	"res": 256,
+	"fov": 2,
+	"aspect_ratio": 1.0,
+	"znear": -30,
+	"zfar": 30,
+	"dist_scaling": 0.6,
+	"point_radius": 0.005,
+	"points_per_pixel": 10,
+	"gpu_id": 0
+}

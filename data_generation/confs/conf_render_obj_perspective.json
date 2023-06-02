@@ -1,0 +1,13 @@
+{
+	"input_mesh_path": "./input_data/cat_mask.obj",
+	"input_mesh_texture_type": "vertex",
+	"output_dir": "./output_data/cat_mask",
+	"resolution": 256,
+	"num_loop": 3,
+	"num_sample_per_loop": 4,
+	"camera_mode": "perspective",
+	"viewing_angle": 2,
+	"dist_scaling": 0.65,
+	"near_far": 40,
+	"keep_alpha": false
+}

@@ -50,7 +50,10 @@ For the data `others/cat_mask`, please use `--conf ./confs/wmask_onlypos.conf`.
 ### Running
 - **Prepare your own data**
 
-Please refer to the [Data Conversion in NeuS](https://github.com/Totoro97/NeuS#data-convention) to generate your own data.
+**Method 1**: Please refer to the [Data Conversion in NeuS](https://github.com/Totoro97/NeuS#data-convention) to generate your own data.
+
+**Method 2**: If you plan to generate image & cameras used for NeAT reconstruction from a mesh or point cloud,
+you may checkout `./data_generation`. 
 
 - **Training**
 
