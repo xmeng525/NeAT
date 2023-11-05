@@ -74,12 +74,13 @@ python exp_runner.py --case YOUR_CASE --conf ./confs/wmask.conf --is_continue --
 If you find our work useful in your research, please consider citing:
 
 ```
-@article{meng_2023_neat,
-	title={NeAT: Learning Neural Implicit Surfaces with Arbitrary Topologies from Multi-view Images},
-	author={Meng, Xiaoxu and Chen, Weikai and Yang, Bo},
-	journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-	month={June},
-	year={2023}
+@InProceedings{Meng_2023_CVPR,
+    author    = {Meng, Xiaoxu and Chen, Weikai and Yang, Bo},
+    title     = {NeAT: Learning Neural Implicit Surfaces With Arbitrary Topologies From Multi-View Images},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {248-258}
 }
 ```
 
